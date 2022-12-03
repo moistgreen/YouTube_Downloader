@@ -58,7 +58,7 @@ def get_video(url, path):
                 sys.exit()
 
         # download video to path
-        print("Downloading ~ " + str(title))
+        print("Downloading - " + str(title))
         yd.download(path)
         print("Finished download @ " + path + "\n")
 
